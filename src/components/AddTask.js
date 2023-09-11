@@ -22,6 +22,7 @@ const AddTask = ({ tasks, setTasks }) => {
       body: JSON.stringify({ text }),
     });
 
+    // real time data updating
     const data = await res.json();
     setTasks([...tasks, data]);
   };
