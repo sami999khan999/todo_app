@@ -39,7 +39,7 @@ const AddTask = ({ tasks, setTasks }) => {
         required
         type="text"
         placeholder="Things To Do"
-        className="input  bg-transparent outline-none border-b-2 border-gray-500 py-2 px-5 focus:border-teal-600"
+        className="input  bg-transparent outline-none border-b-2 border-gray-500 py-2 px-5 focus:border-teal-600 text-gray-300"
       />
       <button
         type="submit"
